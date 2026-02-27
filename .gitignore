@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+lib/
+
+# Build artifacts
+out/
+cache/
+foundry_bin/
+foundry.zip
+
+# Environment variables
+.env
+
+# Logs and test results
+*.log
+test_output.txt
+test_output_utf8.txt
+test_results.txt
+build.log
+build_utf8.log
+
+# Data (temporary/transfer records should generally not be in git for a production app, but for this project we might want to keep the folder structure)
+# data/
+# logs/
+
+# System files
+.DS_Store
+Thumbs.db

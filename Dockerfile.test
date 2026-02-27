@@ -1,0 +1,4 @@
+FROM node:18
+WORKDIR /usr/src/app
+COPY package*.json ./
+CMD ["tail", "-f", "/dev/null"]

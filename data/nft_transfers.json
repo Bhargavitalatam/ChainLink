@@ -1,0 +1,11 @@
+[
+  {
+    "transferId": "f82eda63-9f43-48ef-959b-156fc1ce66e9",
+    "tokenId": "1",
+    "sourceChain": "avalanche-fuji",
+    "destinationChain": "arbitrum-sepolia",
+    "receiver": "0x0000000000000000000000000000000000000000",
+    "status": "failed",
+    "timestamp": "2026-02-27T17:02:43.082Z"
+  }
+]

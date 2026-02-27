@@ -1,0 +1,9 @@
+# node_modules
+npm-debug.log
+out
+cache
+.git
+foundry_bin
+foundry.zip
+build.log
+build_utf8.log
