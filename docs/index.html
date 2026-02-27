@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chainlink CCIP | Cross-Chain NFT Bridge</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <nav>
+                <div class="logo">
+                    <span class="accent">Chainlink</span> CCIP Bridge
+                </div>
+                <div class="nav-links">
+                    <a href="#hero">Overview</a>
+                    <a href="#stats">Stats</a>
+                    <a href="#transfers">Transfers</a>
+                </div>
+                <button class="btn-primary" id="btn-demo">Launch Demo</button>
+            </nav>
+        </header>
+
+        <main>
+            <section id="hero">
+                <div class="hero-content">
+                    <h1 class="gradient-text">Seamless Cross-Chain <br>NFT Transfers</h1>
+                    <p>Bridge your digital assets across the blockchain ecosystem with institutional-grade security
+                        powered by Chainlink CCIP.</p>
+                    <div class="hero-buttons">
+                        <button class="btn-glow">Explore Bridge</button>
+                        <button class="btn-outline">Read Docs</button>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="glass-card main-visual">
+                        <img src="hero.png" alt="Bridge Visualization" id="hero-img">
+                        <div class="floating-badge">
+                            <span class="pulsating-dot"></span>
+                            Live CCIP Status
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="stats">
+                <div class="stats-container">
+                    <div class="stat-card">
+                        <span class="stat-val" id="total-bridged">1,248</span>
+                        <span class="stat-label">Total Bridged</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-val">2</span>
+                        <span class="stat-label">Chains Supported</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-val" id="active-messages">42</span>
+                        <span class="stat-label">Active CCIP Messages</span>
+                    </div>
+                </div>
+            </section>
+
+            <section id="transfers">
+                <div class="section-header">
+                    <h2>Recent Transfers</h2>
+                    <p>Real-time updates from Avalanche Fuji to Arbitrum Sepolia</p>
+                </div>
+                <div class="transfers-table-container glass-card">
+                    <table id="transfers-table">
+                        <thead>
+                            <tr>
+                                <th>Transaction Hash</th>
+                                <th>From</th>
+                                <th>To</th>
+                                <th>Token ID</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody id="transfers-body">
+                            <!-- Populated by JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2026 Chainlink NFT Bridge. Built with &hearts; for the developer community.</p>
+            </div>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
